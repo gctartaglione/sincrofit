@@ -87,6 +87,7 @@ h1 {
     /* Um efeito sutil de gradiente no texto, muito moderno */
     background: linear-gradient(90deg, #ffffff, var(--accent-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
